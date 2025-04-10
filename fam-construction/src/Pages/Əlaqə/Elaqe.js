@@ -1,6 +1,6 @@
 import React from 'react'
-
-const Footer = () => {
+import App from '../../App'
+const Elaqe = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Elaqe

@@ -1,11 +1,27 @@
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        
-      </header>
-    </div>
-  );
+import React from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from '../src/Layout/Layout';
+import Home from './Pages/Home/Home';
+import Haqqinda from './Pages/Haqqinda/Haqqinda';
+import Lahiye from './Pages/Lahiyələr/Lahiye';
+import Xidmetler from './Pages/Xidmətlər/Xidmetler';
+import Elaqe from './Pages/Əlaqə/Elaqe';
+const App = () => {
+return (
+  <div>
+    <BrowserRouter>
+    <Layout>
+      <Routes>
+        <Route index path='/' element={<Home/>} />
+        <Route index path='/haqqimizda' element={<Haqqinda/>} />
+        <Route index path='/xidmetler' element={<Xidmetler/>} />
+        <Route index path='/lahiyeler' element={<Lahiye/>} />
+        <Route index path='/elaqe' element={<Elaqe/>} />
+      </Routes>
+    </Layout> 
+    </BrowserRouter>
+   
+  </div>
+);
 }
-
 export default App;

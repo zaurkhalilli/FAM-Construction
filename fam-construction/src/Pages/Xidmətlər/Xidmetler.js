@@ -1,6 +1,7 @@
 import React from 'react'
 import App from '../../App'
-const Home = () => {
+
+const Xidmetler = () => {
   return (
     <div>
       
@@ -8,4 +9,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Xidmetler

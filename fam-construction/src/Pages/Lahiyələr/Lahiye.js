@@ -1,6 +1,7 @@
 import React from 'react'
+import App from '../../App'
 
-const Footer = () => {
+const Lahiye = () => {
   return (
     <div>
       
@@ -8,4 +9,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Lahiye
