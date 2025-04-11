@@ -1,10 +1,23 @@
-.navbar{
-    background-color: #ce6905;
+#navbar{
+    background-color: #f57c04;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+.row{
+    width: 100%;
+}
 
+.col-md-2{
+    img{
+        padding: 5px;
+    }
+}
  .link{
-    text-align: end;
     a{
-        gap: 20px
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 640;
+        text-decoration: none;
     }
  } 
 }

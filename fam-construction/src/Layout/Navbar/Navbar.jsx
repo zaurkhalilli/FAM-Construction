@@ -5,19 +5,30 @@ import { CiMenuBurger } from "react-icons/ci";
 import { useState } from "react";
 const Navbar = () => {
   return (
-    <div className='navbar'>
+    <div id='navbar'>
         <div className="container">
             <div className="row">
-                <div className="col-xl-3">
-                    <img src="https://famgroupconstruction.az/templates/az/images/logo.jpg" alt="" />
+                <div className="col-md-3">
+                   <div className="logo">
+                   <img src="https://famgroupconstruction.az/templates/az/images/logo.jpg" alt="" />
+                   </div>
                 </div>
-                <div className="col-xl-9">
+                <div className="col-md-9">
                    <div className="link">
-                   <a href="">ANA SƏHİFƏ</a>
-                    <a href="">HAQQIMIZDA</a>
-                    <a href="">XİDMƏTLƏR</a>
-                    <a href="">LAYİHƏLƏR</a>
-                    <a href="">ƏLAQƏ</a>
+                    <div className="container">
+                      <div className="row">
+                        <div className="col-md-2"> <Link to="/">ANA SƏHİFƏ</Link> </div>
+                        <div className="col-md-2"> <Link to="/haqqimizda">HAQQIMIZDA</Link></div>
+                        <div className="col-md-2"> <Link to="/xidmetler">XİDMƏTLƏR</Link></div>
+                        <div className="col-md-2"> <Link to="/lahiyeler">LAHİYƏLƏR</Link></div>
+                        <div className="col-md-2"> <Link to="/elaqe">ƏLAQƏ</Link></div>
+                        <div className="col-md-2">
+                        <a href=""> <img src="https://www.famgroupconsulting.az/assets/images/en.png" alt="" /> </a> 
+                        <a href=""> <img src="https://www.famgroupconsulting.az/assets/images/az.png" alt="" /> </a> 
+                        <a href=""> <img src="https://www.famgroupconsulting.az/assets/images/ru.png" alt="" /> </a>
+                        </div>
+                      </div>
+                    </div>
                    </div>
                 </div>
             </div>
