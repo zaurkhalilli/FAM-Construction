@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from '../src/Layout/Layout';
 import Home from './Pages/Home/Home';
 import Haqqinda from './Pages/Haqqinda/Haqqinda';
-import Lahiye from './Pages/Lahiyələr/Lahiye';
+import Lahiye from './Pages/Layihə/Layihe';
 import Xidmetler from './Pages/Xidmətlər/Xidmetler';
 import Elaqe from './Pages/Əlaqə/Elaqe';
 const App = () => {
