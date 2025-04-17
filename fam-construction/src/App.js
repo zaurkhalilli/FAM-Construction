@@ -6,6 +6,8 @@ import Haqqinda from './Pages/Haqqinda/Haqqinda';
 import Lahiye from './Pages/Layihə/Layihe';
 import Xidmetler from './Pages/Xidmətlər/Xidmetler';
 import Elaqe from './Pages/Əlaqə/Elaqe';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 const App = () => {
 return (
   <div>
